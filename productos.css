@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2? family = Heebo & display = swap'); 
+
+
+
+.prod,.acerca, .contacto{
+    color:black;
+    font-weight: 600;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.fotoproducto{
+    display: flex;
+    
+}
+
+.ladoizquierdo{
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-content: flex-start;
+}
+
+.ladoDerecho{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+
+.centro{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.izq{
+    color:black;
+    background-color:white;
+    font-weight: 600;
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+}
+
+
+.parte1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fotoacerca, .rounded-circle{
+
+    width: 400px;
+    height: 300px;
+}
+
+.parte2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.subtitulo, .parrafo, .arroba, .mail,.arroba{
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    color:black;
+    line-height: 2.0;
+}
+
+.parte3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.seccion2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.modulo1{
+ width: 500px;
+ height: 450px;
+}
+
+.fotoportada{
+    height: 450px;
+    width: 400px;
+}
+
+.parte4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+
+.proceso{
+    font-family: "Heebo", sans-serif;
+    text-align:center;
+    color:white;
+    font-weight: 200;
+    line-height: 3.0;
+}
+
+.mover{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.formulario{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: ridge gray;
+}
+
+
+.punto3, .punto2, .punto1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+
+
+
+.insta, .correo, .chat{
+    width:275px;
+    height:350px;
+}
+
+.punto4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.encuentro{
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    color:white;
+    line-height: 2.0;
+}
+
+.seccion3{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.fotoproduct{
+    width:275px ;
+    height:350px ;
+}
+
+.subtitulo2{
+    font-family: "Heebo", sans-serif;
+    text-align:center;
+    color:white;
+    line-height: 3.0;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: black;
+}
+
+.subtitulo1{
+    font-family: "Heebo", sans-serif;
+    text-align:center;
+    line-height: 3.0;
+    font-size: 40px;
+    font-weight: 500;
+    background-color:white;
+}
+
+.ficha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logope{
+    width:250px;
+    height:250px ;
+}
+
+.medidas{
+    width:300px ;
+    height:300px ;
+}
